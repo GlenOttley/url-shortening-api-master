@@ -1,0 +1,55 @@
+// Mobile
+// $container-width: 85;
+
+// Desktop
+$container-width: 77;
+
+// Middle Ground
+// $container-width: 81;
+
+.container {
+  width: $container-width + 0%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.spaced {
+  justify-content: space-between;
+}
+
+// Buttons
+.btn {
+  background: $cyan;
+  border: none;
+  border-radius: 100px;
+  color: #fff !important;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-family: inherit;
+  font-weight: 500;
+  padding: 0.5rem 1.75rem;
+  text-decoration: none;
+
+  &:hover {
+    filter: saturate(35%) brightness(125%);
+  }
+}
+
+.btn--loading {
+  background: $gray;
+}
+
+.btn--square {
+  border-radius: 7px;
+  font-family: inherit;
+}
