@@ -1,9 +1,9 @@
-@import "config";
-@import "utilities";
+@import 'config';
+@import 'utilities';
 
 html {
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media (min-width: 2000px) {
@@ -71,7 +71,7 @@ html {
 
   &__list {
     list-style: none;
-    gap: 2rem;
+    gap: 1rem;
 
     @include desktop {
       gap: 1.7rem;
@@ -101,10 +101,9 @@ html {
   }
 
   .nav__link.btn {
-    font-size: inherit;
+    font-size: 0.8rem;
 
     @include desktop {
-      font-size: 0.85rem;
       padding: 0.5rem 1.3rem;
     }
   }
